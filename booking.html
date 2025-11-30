@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dream Travel Agency - Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="titlelogo.ico">
+</head>
+<body>
+		<header>
+		<img src="travellogo.webp" alt="img not loaded" width="34px" height="34px">
+	<h1>Dream Travel Agency</h1>
+    <nav>
+														
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Registration</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+  <h2 align=center>Book Your Travel</h2>
+
+  <form>
+    <label>From:</label><br>
+    <input type="text" required><br>
+
+    <label>To:</label><br>
+    <input type="text" required><br>
+
+    <label>Date:</label><br>
+    <input type="date" required><br>
+
+    <label>Number of People:</label><br>
+    <input type="number" min="1" required><br>
+
+    <label>Travel Mode:</label><br>
+    <select required>
+      <option value="">Select</option>
+      <option>Flight</option>
+      <option>Train</option>
+      <option>Bus</option>
+    </select><br><br>
+
+    <input type="submit" value="Book Now">
+  </form>
+
+  <p><a href="login.html">Logout</a></p>
+</body>
+</html>
